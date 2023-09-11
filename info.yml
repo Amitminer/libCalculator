@@ -1,0 +1,11 @@
+# info.yml
+
+name: libCalculator
+author: AmitxD
+path: AmitxD/libCalculator
+version: 1.0
+license: MIT
+description: A PHP calculator library with additional mathematical functions.
+
+contact:
+  website: https://github.com/Amitminer/libCalculator
