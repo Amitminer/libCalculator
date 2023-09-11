@@ -18,7 +18,7 @@ libCalculator is a simple PHP library for performing various mathematical calcul
 You can install this library via Composer:
 
 ```shell
-composer require amitminer/libcalculator
+composer require amitminer/libcalculator:^1.0.0
 ```
 
 ## Usage
