@@ -7,7 +7,6 @@ namespace AmitxD\libCalculator;
 use ValueError;
 use function sin;
 use function sqrt;
-use function deg2rad;
 use function tan;
 use function cos;
 
@@ -141,26 +140,3 @@ class libCalculator
         return tan($angleInRadians);
     }
 }
-
-// Example usage:
-$result1 = libCalculator::add(10, 10);
-$result2 = libCalculator::subtract(10, 10);
-$result3 = libCalculator::multiply(5, 10);
-$result4 = libCalculator::divide(10, 5);
-$result5 = libCalculator::percentage(25, 50);
-$result6 = libCalculator::exponentiation(2, 3);
-$result7 = libCalculator::squareRoot(25);
-$result8 = libCalculator::sine(deg2rad(30));
-$result9 = libCalculator::cosine(deg2rad(45));
-$result10 = libCalculator::tangent(deg2rad(60));
-
-echo "Addition: $result1\n";
-echo "Subtraction: $result2\n";
-echo "Multiplication: $result3\n";
-echo "Division: $result4\n";
-echo "Percentage: $result5\n";
-echo "Exponentiation: $result6\n";
-echo "Square Root: $result7\n";
-echo "Sine: $result8\n";
-echo "Cosine: $result9\n";
-echo "Tangent: $result10\n";
